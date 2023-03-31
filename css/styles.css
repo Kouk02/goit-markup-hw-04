@@ -438,6 +438,52 @@ background-color: var(--color-iris)
 .messeng-link-team:focus {
     background-color: var(--color-ocean);
 }
+
+/* ==================== customers =================== */
+/* section */
+.customers-section{
+display: block;
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
+/* title */
+.customers-name{
+margin: 0 auto;
+margin-bottom: 72px;
+}
+/* ul */
+.customers-list{
+display: flex;
+justify-content: space-between;
+gap: 24px;
+}
+/* li */
+.customers-item{
+flex-basis: calc((100% - 72px)/6);
+background-color: var(--color-white);
+}
+.customers-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--color-light-slate);
+    border-radius: 4px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.customers-icon{
+fill: var(--color-light-slate);                      
+background-color: var(--color-white);
+}
+.customers-icon:hover,
+.customers-icon:focus {
+fill: var(--color-ocean);
+}
+.customers-link:hover,
+.customers-link:focus{
+    border: 1px solid var(--color-ocean);
+}
 /* =================== footer =========================*/
 .section-footer{
     padding-top: 100px;
