@@ -414,8 +414,6 @@ margin-bottom: 72px;
 }
 /* Ul messeng */
 .messeng-list-team {
-    justify-content: center;
-    margin-top: 8px;
     display: flex;
     gap: 24px;}
 
