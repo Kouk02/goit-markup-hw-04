@@ -432,6 +432,11 @@ background-color: var(--color-iris)
 .messeng-icon-team{
     fill: var(--color-cloud);
 }
+
+.messeng-link-team:hover,
+.messeng-link-team:focus {
+    background-color: var(--color-ocean);
+}
 /* =================== footer =========================*/
 .section-footer{
     padding-top: 100px;
