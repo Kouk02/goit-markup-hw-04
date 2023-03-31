@@ -26,7 +26,12 @@ button {
     --color-grey: #2e2f42;
     --color-white: #ffffff;
     --color-dairy: #fcfcfc;
+    --hero-gradient: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7));
 }
+
+
+
 a {
     text-decoration: none;
 }
@@ -66,6 +71,7 @@ li {
 .list{
 list-style: none;
 }
+
 
 .address-list {
     font-style: normal
@@ -260,13 +266,13 @@ background-color: var(--color-cloud);
     padding: 0 15px;
 }
 
-/* навігація */
+/* navigation */
 .header-nav{
     align-items: center;
     display: flex;
 }
 
-/* всі списки li */
+/* all li */
 .header-list {
     display: flex;
     gap: 40px;
@@ -282,23 +288,42 @@ background-color: var(--color-cloud);
     padding-bottom: 24px;
 }
 /*=================================== TITLE BUTTON ===========================*/
-/*секція*/
+/*section*/
 .hero {
-display: block;
-padding-top: 188px;
-padding-bottom: 188px;
-background-color: var(--color-grey);
-justify-content: center;
+    max-width: 1440px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    background-color: #2e2f42;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: var(--hero-gradient), url(../images/peopleoffice.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.features-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    background-color: var(--color-cloud);
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.features-icon{
 
 }
-/*заголовок*/
+
+/*title*/
 .hero-title{
     display: block;
     width: 496px;
     margin: 0 auto;
     margin-bottom: 48px;
  }
-/*кнопка*/
+/*button*/
 .hero-button{
     display: block;
     width: 169px;
@@ -320,7 +345,7 @@ justify-content: center;
     color: var(--dark-color);
 }
 
-.Features {
+.features {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -332,18 +357,18 @@ justify-content: center;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-/* секція */
+/* sections */
 .text-section{
     padding-top: 120px;
     padding-bottom: 120px;
 }
-/* Батьківський бокс ul */
+/* ul =*/
 .main-list{
     display: flex;
     justify-content: space-between;
     gap: 24px;
 }
-/* Дочірний бокс li */
+/* li */
 .main-item {
     flex-basis: calc((100% - 72px)/4);
 }
