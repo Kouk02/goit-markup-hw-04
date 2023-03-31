@@ -313,7 +313,6 @@ background-color: var(--color-cloud);
 }
 
 .features-icon{
-
 }
 
 /*title*/
@@ -345,7 +344,7 @@ background-color: var(--color-cloud);
     color: var(--dark-color);
 }
 
-.features {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -412,6 +411,26 @@ margin-bottom: 72px;
 .team-description{
     padding-top: 32px;
     padding-bottom: 32px;
+}
+/* Ul messeng */
+.messeng-list-team {
+    margin-top: 8px;
+    justify-content: center;
+    display: flex;
+    gap: 24px;}
+
+.messeng-link-team{
+display: flex;
+width: 40px; 
+height: 40px;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+cursor: pointer;
+background-color: var(--color-iris)
+}
+.messeng-icon{
+    fill: var(--color-cloud);
 }
 /* =================== footer =========================*/
 .section-footer{
