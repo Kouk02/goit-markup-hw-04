@@ -483,7 +483,7 @@ fill: var(--color-ocean);
 .customers-link:hover,
 .customers-link:focus{
     border: 1px solid var(--color-ocean);
-    fill: var(--color-ocean)
+    fill: var(--color-ocean);
 }
 /* =================== footer =========================*/
 .section-footer{
