@@ -414,8 +414,8 @@ margin-bottom: 72px;
 }
 /* Ul messeng */
 .messeng-list-team {
-    margin-top: 8px;
     justify-content: center;
+    margin-top: 8px;
     display: flex;
     gap: 24px;}
 
@@ -431,6 +431,8 @@ background-color: var(--color-iris)
 }
 .messeng-icon{
     fill: var(--color-cloud);
+    width: 16px;
+    height: 16px;
 }
 /* =================== footer =========================*/
 .section-footer{
