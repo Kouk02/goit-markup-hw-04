@@ -415,6 +415,8 @@ margin-bottom: 72px;
 /* Ul messeng */
 .messeng-list-team {
     display: flex;
+    margin-top: 8px;
+    justify-content: center;
     gap: 24px;}
 
 .messeng-link-team{
@@ -427,7 +429,7 @@ border-radius: 50%;
 cursor: pointer;
 background-color: var(--color-iris)
 }
-.messeng-icon{
+.messeng-icon-team{
     fill: var(--color-cloud);
 }
 /* =================== footer =========================*/
