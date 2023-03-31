@@ -476,8 +476,7 @@ fill: var(--color-ocean);
     padding-top: 17px;
     padding-bottom: 17px;
 }
-.customers-icon {
-fill: var(--color-light-slate);                      
+.customers-icon {                      
 background-color: var(--color-white);
 }
 .customers-icon:hover,
