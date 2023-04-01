@@ -480,8 +480,8 @@ fill: var(--color-light-slate);
 .company-item {                      
 background-color: var(--color-white);
 }
-.company-icon, .company-link:hover,
-.company-icon, .company-link:focus {
+.company-icon .company-link:hover,
+.company-link:focus {
 fill: var(--color-ocean);
 border-color: var(--color-ocean);
 }
