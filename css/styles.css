@@ -464,7 +464,7 @@ flex-basis: calc((100% - 72px)/6);
 background-color: var(--color-white);
 }
 
-.company-item{
+.company-icon{
 fill: var(--color-ocean);
 }
 .company-link{
