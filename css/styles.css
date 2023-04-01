@@ -428,7 +428,7 @@ justify-content: center;
 align-items: center;
 border-radius: 50%;
 cursor: pointer;
-background-color: var(--color-iris)
+background-color: var(--color-iris);
 }
 .messeng-icon-team{
     fill: var(--color-cloud);
@@ -495,16 +495,53 @@ a.company-link:hover{
 .text-footer{
     width: 264px;
 }
+.footer-container{
+    display: flex;
+    gap: 120px;
+}
+.footer-info{
+    max-width: 264px;
+}
+/* footer social media container */
+.social-media-container{
+display: flex;
+    flex-direction: column;
+}
+/* title h3 */
+.title-social-media{
+    text-align: left;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    padding-bottom: 16px;
+}
+/* ul */
+.list-social-media{
+    display: flex;
+    gap: 16px;
+}
+/* item li */
+.social-media-item{   
 
-
-
-
-
-
-
-
-
-
+}
+/* link a */
+.social-media-link{
+display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: var(--color-iris);
+}
+.social-media-link:hover{
+background-color: var(--color-green);
+}
+/* icon svg */
+.social-media-icon{
+fill: var(--color-cloud);
+}
 /* ==================================  Portfolio section =================================== */
 /* section*/
 .section-filtres{
