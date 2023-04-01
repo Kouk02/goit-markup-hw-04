@@ -441,33 +441,33 @@ background-color: var(--color-iris)
 
 /* ==================== customers =================== */
 /* section */
-.customers-section{
+.section-company{
 display: block;
 padding-top: 120px;
 padding-bottom: 120px;
 }
 
 /* title */
-.customers-name{
+.title-company{
 margin: 0 auto;
 margin-bottom: 72px;
 }
 /* ul */
-.customers-list{
+.company-list{
 display: flex;
 justify-content: space-between;
 gap: 24px;
 }
 /* li */
-.customers-item{
+.company-item{
 flex-basis: calc((100% - 72px)/6);
 background-color: var(--color-white);
 }
 
-.customers-item{
+.company-item{
 fill: var(--color-ocean);
 }
-.customers-link{
+.company-link{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -476,15 +476,15 @@ fill: var(--color-ocean);
     padding-top: 17px;
     padding-bottom: 17px;
 }
-.customers-icon {                      
+.company-icon {                      
 background-color: var(--color-white);
 }
-.customers-icon:hover,
-.customers-icon:focus {
+.company-icon:hover,
+.company-icon:focus {
 fill: var(--color-ocean);
 }
-.customers-link:hover,
-.customers-link:focus{
+.company-link:hover,
+.company-link:focus{
     border: 1px solid var(--color-ocean);
     fill: var(--color-ocean);
 }
