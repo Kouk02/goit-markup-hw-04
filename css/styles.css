@@ -465,7 +465,7 @@ background-color: var(--color-white);
 }
 
 .company-icon{
-fill: var(--color-ocean);
+fill: var(--color-light-slate);
 }
 .company-link{
     display: flex;
@@ -481,7 +481,7 @@ background-color: var(--color-white);
 }
 .company-icon:hover,
 .company-icon:focus {
-fill: var(--color-light-slate);
+fill: var(--color-ocean);
 }
 .company-link:hover,
 .company-link:focus{
