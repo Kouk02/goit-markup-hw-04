@@ -481,7 +481,7 @@ background-color: var(--color-white);
 }
 .company-icon:hover,
 .company-icon:focus {
-color: var(--color-ocean);
+fill: var(--color-ocean);
 }
 .company-link:hover,
 .company-link:focus{
