@@ -485,7 +485,6 @@ fill: var(--color-ocean);
 }
 .company-link:hover,
 .company-link:focus{
-    border: 1px solid var(--color-ocean);
     fill: var(--color-ocean);
 }
 /* =================== footer =========================*/
