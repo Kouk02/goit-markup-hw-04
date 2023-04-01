@@ -469,6 +469,7 @@ fill: var(--color-light-slate);
 }
 .company-link{
     display: flex;
+    box-sizing: content-box;
     justify-content: center;
     align-items: center;
     border: 1px solid var(--color-light-slate);
@@ -479,14 +480,12 @@ fill: var(--color-light-slate);
 .company-item {                      
 background-color: var(--color-white);
 }
-.company-icon:hover,
-.company-icon:focus {
+.company-icon, .company-link:hover,
+.company-icon, .company-link:focus {
 fill: var(--color-ocean);
+border-color: var(--color-ocean);
 }
-.company-link:hover,
-.company-link:focus{
-    border-color: var(--color-ocean);
-}
+
 /* =================== footer =========================*/
 .section-footer{
     padding-top: 100px;
