@@ -482,7 +482,7 @@ background-color: var(--color-white);
 }
 .company-link:hover .company-icon,
 .company-link:focus {
-fill: var(--color-ocean);
+fill: #404bbf;
 }
 
 /* =================== footer =========================*/
