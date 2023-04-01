@@ -465,7 +465,7 @@ background-color: var(--color-white);
 }
 
 .company-icon{
-fill: var(--color-ocean);
+fill: var(--color-light-slate);
 }
 .company-link{
     display: flex;
