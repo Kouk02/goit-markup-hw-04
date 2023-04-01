@@ -484,6 +484,8 @@ background-color: var(--color-white);
 .company-link:focus {
 fill: #404bbf;
 }
+a.company-link:hover{
+    border-color: #404bbf;}
 
 /* =================== footer =========================*/
 .section-footer{
