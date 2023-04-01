@@ -476,7 +476,7 @@ fill: var(--color-ocean);
     padding-top: 17px;
     padding-bottom: 17px;
 }
-.company-icon {                      
+.company-item {                      
 background-color: var(--color-white);
 }
 .company-icon:hover,
