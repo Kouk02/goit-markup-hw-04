@@ -465,7 +465,7 @@ background-color: var(--color-white);
 }
 
 .company-icon{
-fill: var(--color-light-slate);
+fill: var(--color-ocean);
 }
 .company-link{
     display: flex;
@@ -481,11 +481,11 @@ background-color: var(--color-white);
 }
 .company-icon:hover,
 .company-icon:focus {
-fill: var(--color-ocean);
+fill: var(--color-light-slate);
 }
 .company-link:hover,
 .company-link:focus{
-    border: var(--color-ocean);
+    border-color: var(--color-ocean);
 }
 /* =================== footer =========================*/
 .section-footer{
